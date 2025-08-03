@@ -25,8 +25,13 @@ A full-stack wellness session management platform for Arvyax Private Limited, bu
 ### Login Page
 Users enter their email and password to access the platform. Successful login redirects to the dashboard.
 
+<img width="1919" height="832" alt="image" src="https://github.com/user-attachments/assets/9cc6607c-7eeb-41e7-bcee-21abc6994b48" />
+
+
 ### Signup Page
  New users can register by providing their name, email, and password. On successful signup, users are logged in automatically.
+ <img width="1905" height="830" alt="image" src="https://github.com/user-attachments/assets/c658adef-dd96-45ef-843c-d8b122047ece" />
+
 
  ### Dashboard
  The admin dashboard displays total members and published session stats. Sidebar navigation allows quick access to other sections.
@@ -35,6 +40,7 @@ Users enter their email and password to access the platform. Successful login re
 
  ### Create Wellness Session
 Members can create new wellness sessions, save drafts, and publish sessions. The form includes fields for title, tags, description, difficulty, duration, instructor, and scheduling.
+
 <img width="711" height="799" alt="image" src="https://github.com/user-attachments/assets/97739b19-9c7c-4b9c-9995-a217d340f62a" />
 
 
