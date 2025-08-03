@@ -35,7 +35,7 @@ Users enter their email and password to access the platform. Successful login re
 
  ### Dashboard
  The admin dashboard displays total members and published session stats. Sidebar navigation allows quick access to other sections.
-![Uploading image.png…]()
+ <img width="1920" height="843" alt="image" src="https://github.com/user-attachments/assets/622d396f-a393-4733-8ca6-f728df4368f9" />
 
 
 
@@ -47,10 +47,7 @@ Members can create new wellness sessions, save drafts, and publish sessions. The
 
  ### Published Wellness Sessions
  All published wellness sessions are displayed in a modern card layout. Users can view session details, tags, instructor info, and access session data.
-![Uploading image.png…]()
-
-
-
+ <img width="1877" height="832" alt="image" src="https://github.com/user-attachments/assets/b0520620-5c8a-4fc5-b101-01ba1955a1ba" />
 
 
  ## Getting Started
