@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Wellness Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack wellness session management platform for Arvyax Private Limited, built with **React**, **Node.js**, and **MongoDB**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **User Authentication:** Secure signup and login.
+- **Dashboard:** View total members and published session stats.
+- **Session Creation:** Create, draft, and publish wellness sessions.
+- **Published Sessions:** Browse all published wellness sessions in a modern card layout.
+- **Responsive Design:** Clean, modern UI with brown-themed styling.
+- **Admin Panel:** Sidebar navigation for dashboard, session creation, and published sessions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **Frontend:** React, CSS
+- **Backend:** Node.js, Express
+- **Database:** MongoDB
+- **Authentication:** JWT
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Login Page
+Users enter their email and password to access the platform. Successful login redirects to the dashboard.
 
-### `npm run build`
+### Signup Page
+ New users can register by providing their name, email, and password. On successful signup, users are logged in automatically.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ ### Dashboard
+ The admin dashboard displays total members and published session stats. Sidebar navigation allows quick access to other sections.
+ <img width="1853" height="830" alt="image" src="https://github.com/user-attachments/assets/2e70c4ff-97b4-47f1-892b-a8a15b9eddc3" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ ### Create Wellness Session
+Members can create new wellness sessions, save drafts, and publish sessions. The form includes fields for title, tags, description, difficulty, duration, instructor, and scheduling.
+<img width="711" height="799" alt="image" src="https://github.com/user-attachments/assets/97739b19-9c7c-4b9c-9995-a217d340f62a" />
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ ### Published Wellness Sessions
+ All published wellness sessions are displayed in a modern card layout. Users can view session details, tags, instructor info, and access session data.
+ <img width="1891" height="824" alt="image" src="https://github.com/user-attachments/assets/f5b7db51-42df-43a4-97f9-fd15f488bc94" />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ ## Getting Started
+ **Backend Setup**
+   - Go to the `backend` folder
+   - Install dependencies: `npm install`
+   - Create a `.env` file (see `.env.example`)
+   - Start server: `npm start`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ **Frontend Setup**
+   - Go to the `frontend` folder
+   - Install dependencies: `npm install`
+   - Start React app: `npm start`
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
